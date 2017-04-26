@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="actionbar_background_start">#1e90ff</color>
+    <color name="actionbar_background_end">#3a6ded</color>
+    <color name="purple">#673ab7</color>
+    <color name="white">#f3f3f3</color>
+    <color name="red">#f44336</color>
+    <color name="orange">#ff9800</color>
+    <color name="categories_bg">#ffeb3b</color>
+    <color name="green">#4caf50</color>
+    <color name="light_green">#8bc34a</color>
+</resources>

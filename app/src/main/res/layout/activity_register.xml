@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:orientation="vertical"
+    android:background="@color/orange"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rgistration Form"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:gravity="center"
+        android:layout_marginTop="100sp"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_marginTop="35sp"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:background="@color/white"/>
+    <EditText
+        android:id="@+id/userName"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="Enter user name"
+        android:background="@color/white"/>
+    <EditText
+        android:id="@+id/userPass"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="Enter user pass"
+        android:background="@color/white"/>
+
+    <Button
+
+        android:id="@+id/btnRegister"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColorHighlight="@color/light_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="userReg"
+        android:textColor="@color/colorAccent"/>
+</LinearLayout>
